@@ -18,14 +18,17 @@ spring:
       suffix: .html
       servlet:
         content-type: text/html
-
-                                  #监控统计用的filter:stat
-                                 #日志用的filter:log4j
-                                 #防御sql注入的filter:wall
-        #maxActive: 20          #最大连接池数量
-        #initialSize: 1       #初始化时建立物理连接的个数
-        #maxWait: 60000       #获取连接时最大等待时间
-        #minIdle: 1          #最小连接池数量
+#备注：
+        #日志用的filter:log4j
+        #防御sql注入的filter:wall
+        #最大连接池数量
+        #初始化时建立物理连接的个数
+        #获取连接时最大等待时间
+        #最小连接池数量
+        #maxActive: 20
+        #initialSize: 1
+        #maxWait: 60000
+        #minIdle: 1
         #timeBetweenEvictionRunsMillis: 60000
         #minEvictableIdleTimeMillis: 300000
         #validationQuery: select 'x'
