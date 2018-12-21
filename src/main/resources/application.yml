@@ -37,7 +37,7 @@ spring:
         #testOnReturn: false
         #poolPreparedStatements: true
         #maxOpenPreparedStatements: 20
-
+        1122
 mybatis:
   #注意：一定要对应mapper映射xml文件的所在路径
   mapper-locations: classpath:mapping/*.xml
